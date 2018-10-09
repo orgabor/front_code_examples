@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Treehouse Javascript basics</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="color">
+
+<h1>Music Playlist</h1>
+<div class="listDiv">
+	
+	Sort Option 
+	Per Page
+	Bedroom(s)
+	Bathroom(s)
+	Picture(s)
+	Pictures
+	Contact Agent
+	Results returned
+	More Details
+	Sort Option
+	Per Page 
+	Bedroom(s) 
+	Bathroom(s) 
+	Picture(s) 
+	Pictures 
+	Contact Agent 
+	Results returned 
+	More Details 
+	<
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+  /*  var translate=[
+     ['Sort Option', 'Keresési feltételek'],
+     ['Per Page',  'Oldalanként'],
+     ['Bedroom&#40;s&#41;',  'Hálószoba'],
+     ['Bathroom(s)',  'Fürdőszoba'],
+     ['Picture(s)',  'Kép'],
+     ['Pictures',  'Képek'],
+     ['Contact Agent',  'Küldjön üzenetet!'],
+     ['Results returned',  'Találat'],
+     ['More Details',  'Részletek'],
+     
+
+     ]
+     
+     window.onload = clear; 
+     function clear() { 
+
+        //  document.body.innerHTML= document.body.innerHTML.replaceAll(translate[i][0], translate[i][1]);
+         for (var i = 0; i < translate.length; i++) {
+             
+   document.body.innerHTML= document.body.innerHTML.replace(new RegExp (translate[i][0] , 'gi'),translate[i][1]);
+     
+  }
+     ;} 
+     console.log(translate);*/
+    
+     //
+     var $call =
+          jQuery(".menu-text.fusion-button.button-default.button-small:contains('VISSZAHÍVÁST')").hide().after('<a class="fusion-button button-flat button-round button-large button-default button-1" target="_self" title="visszahivas" href="#" data-toggle="modal" data-target=".fusion-modal.visszahivas" id="visszahiv"><span class="fusion-button-text">VISSZAHÍVÁST KÉREK</span></a>')
+
+        
+    $(".menu-text.fusion-button.button-default.button-small:contains('VISSZAHÍVÁST')").hide().after('hi');
+
+</script>
+
+</body>
+</html>

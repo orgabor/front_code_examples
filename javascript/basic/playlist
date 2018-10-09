@@ -1,0 +1,4 @@
+var playList = [];
+playList.push('My Way');
+
+printlist(playList);
